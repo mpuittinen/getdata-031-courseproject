@@ -45,6 +45,7 @@ The resulting dataset will be available in tidyset
 ## Script logic
 
 The script run_analysis does the following:
+
 	1. For the train and test datasets, combines the test data (X_*.txt in the original datasets) with the activity variables (y_*.txt) and the subject variables (subject_*.txt). Only the mean and std deviation measurements are read from the original files.
 	2. Merges the train and test datasets into one dataset
 	3. Sets the merged dataset columns (based on features.txt in the original data)

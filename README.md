@@ -4,7 +4,8 @@ Human Activity Recognition Using Smartphones Dataset
 
 ## Dataset description
 
-The variables in the dataset are
+The dataset tidydata.txt is based on measurement data available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip [1]
+The variables in the dataset are:
 
 	subject : test person involved
 	activity : activity performed (STANDING, WALKING, ...)
@@ -29,7 +30,7 @@ and the following values (means of the original measurements) for each subject /
 	fBodyGyroMag mean and standard deviation (std)
 	fBodyGyroJerkMag mean and standard deviation (std)
 
-A more detailed description of the measurement methodolofy for the original dataset can be found in "features_info.txt" for the original dataset (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+A more detailed description of the measurement methodolofy for the original dataset can be found in "features_info.txt" for the original dataset
 
 ## Recreating the tidy dataset
 
@@ -52,7 +53,7 @@ The script run_analysis does the following:
 	4. Assigns the activity labels (WALKING, ...) based on the activity (1,2,3...) set in step 1
 	5. Using the "dplyr" package, groups the resulting dataset by activity and subject and calculates the mean value for each variable
 
-## Sources
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+## References
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 

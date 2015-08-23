@@ -8,7 +8,9 @@ The variables in the dataset are
 
 	subject : test person involved
 	activity : activity performed (STANDING, WALKING, ...)
+
 and the following values (means of the original measurements) for each subject / activity pair:
+
 	tBodyAcc-XYZ mean and standard deviation (std)
 	tGravityAcc-XYZ mean and standard deviation (std)
 	tBodyAccJerk-XYZ mean and standard deviation (std)

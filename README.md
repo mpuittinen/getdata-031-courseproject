@@ -5,6 +5,7 @@ Human Activity Recognition Using Smartphones Dataset
 ## Dataset description
 
 The variables in the dataset are
+
 	subject : test person involved
 	activity : activity performed (STANDING, WALKING, ...)
 and the following values (means of the original measurements) for each subject / activity pair:
